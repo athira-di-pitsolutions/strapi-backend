@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author_email": {
+      "type": "email"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tags": {
+      "type": "enumeration",
+      "enum": [
+        "random",
+        "food",
+        "travel",
+        "fashion"
+      ]
+    }
+  }
+}

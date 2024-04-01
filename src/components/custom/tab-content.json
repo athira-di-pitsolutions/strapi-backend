@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_custom_tab_contents",
+  "info": {
+    "displayName": "TabContent",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

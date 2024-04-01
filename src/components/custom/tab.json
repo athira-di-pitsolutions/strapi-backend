@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_custom_tabs",
+  "info": {
+    "displayName": "Tab",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "tab_content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.tab-content"
+    }
+  }
+}
